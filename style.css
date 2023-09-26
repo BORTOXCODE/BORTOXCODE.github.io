@@ -1,0 +1,73 @@
+body {
+    background-image: url(tlo.png);
+    background-size: 100%;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    margin-bottom: 5%;
+}
+form {
+    background-color: #1d2a34;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    margin-top: 12%;
+}
+input[type=text] {
+    background-color: #1d2a34;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d2a34;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom: 5%; 
+    color: #ccc;
+}
+input[type=password] {
+    background-color: #1d2a34;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d2a34;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    color: #ccc;
+}
+select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d2a34;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    box-shadow: 0 0 20px 5px #6633CC;
+    background-color: #6633CC;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #6633CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+input[type=submit]:focus {
+    box-shadow: 0 0 20px 5px #502a9c;
+    background-color: #502a9c;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #502a9c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
