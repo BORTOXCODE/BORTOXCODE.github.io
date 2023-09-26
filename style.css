@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Czcionka';
+    src: url('Itim-Regular.ttf');
+}
+nav {
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 72px;
+    background: #1E1E1E;
+    border-radius: 100px;
+    margin-top: 15px;
+    position: fixed;
+    margin-left: 5%;
+}
+img.logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 2%;
+    margin-top: 2px;
+}
+img.tlo {
+    width: 120%;
+    height: 120%;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: center;
+}
+nav li a {
+    display: block;
+    color: #AB0090;
+    font-family: Czcionka;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+a.nav1 {
+    margin-top: -68px;
+    margin-left: 20%;
+}
+a.nav2 {
+    margin-top: -51px;
+    margin-left: 40%;
+}
+a.nav3 {
+    margin-top: -51px;
+    margin-left: 60%;
+}
+a.nav4 {
+    margin-top: -50px;
+    margin-left: 80%;
+}
