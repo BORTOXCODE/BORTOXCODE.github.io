@@ -2,6 +2,18 @@
     font-family: 'Czcionka';
     src: url('Itim-Regular.ttf');
 }
+body {
+    background-image: url('tlo.png');
+    margin: 0;
+}
+.galeria1 {
+    margin-top: 13%;
+    background-color: #1E1E1E;
+    text-align: center;
+}
+.zdjecie1 {
+    width: 20%;
+}
 nav {
     top: 0;
     left: 0;
@@ -20,8 +32,8 @@ img.logo {
     margin-top: 2px;
 }
 img.tlo {
-    width: 120%;
-    height: 120%;
+    width: 106%;
+    height: 106%;
     margin-left: -5%;
     margin-top: -5%;
 }
@@ -34,7 +46,7 @@ nav li {
 }
 nav li a {
     display: block;
-    color: #AB0090;
+    color: #e550ff;
     font-family: 'Czcionka';
     text-align: center;
     padding: 14px 16px;
