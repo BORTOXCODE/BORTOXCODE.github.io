@@ -1,0 +1,409 @@
+@media screen and (max-width: 950px) {
+    .nav1 {
+        visibility: hidden;
+    }
+    .nav2 {
+        visibility: hidden;
+    }
+    .nav3 {
+        visibility: hidden;
+    }
+    .nav4 {
+        visibility: hidden;
+    }
+    .menu {
+        visibility: visible;
+    }
+}
+@font-face {
+    font-family: 'Czcionka';
+    src: url('Itim-Regular.ttf');
+}
+@keyframes slidelewo {
+    from { transform: translate(-50%) }
+    to { left:50%; margin-right:-50%; transform: translate(-50%, -50%)}
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('zdjecia/tlo.webp');
+    margin: 0;
+    background-repeat: no-repeat;
+}
+.link1 {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+.serweropis {
+    color: #c0c0c0;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: medium;
+    text-align: left;
+    padding: 5px;
+}
+.mediaopis {
+    color: #c0c0c0;
+    position: absolute;
+    margin-left: 1220px;
+    font-size: medium;
+    text-align: right;
+    padding: 5px;
+    margin-top: 25px;
+}
+.serwer {
+    margin-left: 100px;
+    position: absolute;
+    color: white;
+    font-size: larger;
+}
+.media {
+    margin-left: 1250px;
+    position: absolute;
+    color: white;
+    font-size: larger;
+    text-align: right;
+}
+.ikona {
+    width: 15px;
+    height: 15px;
+}
+.ikona1 {
+    width: 10px;
+    height: 10px;
+}
+.stopka {
+    height: 100px;
+    background-color: #212529;
+    font-family: 'Czcionka';
+    padding: 15px;
+}
+.link {
+    text-decoration: none;
+    color: #b13fc4;
+}
+.glos {
+    background-color: #1E1E1E;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 1592px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Czcionka';
+    color: #e550ff;
+}
+.glosowanie1 {
+    background-color: #212529;
+    position: absolute;
+    z-index: 2;
+    border-radius: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 1700px;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Czcionka';
+    color: #313439;
+}
+.glosowanie2 {
+    background-color: #212529;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-left: 183px;
+    top: 1700px;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: 'Czcionka';
+    color: #313439;
+}
+.glosowanie {
+    background-color: #212529;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-left: -195px;
+    top: 1700px;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: 'Czcionka';
+    color: #313439;
+}
+.ogien {
+    width: 50px;
+    height: 50px;
+    left: 100px;
+}
+.menu {
+    font-size: 50px;
+    color: #e550ff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -100px;
+    visibility: hidden;
+}
+.faqdiv {
+    display: flex;
+    justify-content: center;
+    float: center;
+    position: relative;
+}
+.faq1 {
+    background-color: #212529;
+    padding: 10px;
+    font-family: 'Czcionka';
+    font-size: large;
+    position: absolute;
+    width: 1420px;
+    border-radius: 15px;
+    top: 100px;
+    width: 250px;
+    left: 75pt;
+    height: 300px;
+}
+.faq2 {
+    background-color: #212529;
+    padding: 10px;
+    font-family: 'Czcionka';
+    font-size: large;
+    position: absolute;
+    width: 930px;
+    border-radius: 15px;
+    top: 160px;
+    width: 250px;
+    right: 75pt;
+    height: 300px;
+}
+.faq3 {
+    background-color: #212529;
+    padding: 10px;
+    font-family: 'Czcionka';
+    font-size: large;
+    position: absolute;
+    width: 620px;
+    border-radius: 15px;
+    top: 100px;
+    width: 250px;
+    right: 330pt;
+    height: 300px;
+}
+.faq4 {
+    background-color: #212529;
+    padding: 10px;
+    font-family: 'Czcionka';
+    font-size: large;
+    position: absolute;
+    width: 970px;
+    border-radius: 15px;
+    top: 160px;
+    width: 250px;
+    left: 330pt;
+    height: 300px;
+}
+section.galeria {
+    text-align: center;
+    z-index: 2;
+}
+.galerie {
+    display: flex;
+    justify-content: center;
+    float: center;
+}
+.przedzial {
+    background-color: #212529;
+    height: 100px;
+    margin-top: 400px;
+    z-index: 6;
+}
+.tlo {
+    background-color: #2B2E33;
+    height: 650px;
+    z-index: 1;
+}
+.tlo1 {
+    background-color: #313439;
+    height: 230px;
+    z-index: 1;
+}
+.faq {
+    background-color: #1E1E1E;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Czcionka';
+    color: #e550ff;
+}
+button {
+    background: none;
+    border: none;
+    position: absolute;
+}
+.strzalki {
+    display: flex;
+    justify-content: center;
+    float: center;
+    position: absolute;
+}
+#lewo {
+    margin-top: 385px;
+    z-index: 3;
+}
+#prawo {
+    margin-top: 385px;
+    z-index: 3;
+    margin-left: 900px;
+}
+.galeria1 {
+    background-color: #1E1E1E;
+    text-align: center;
+    width: 300px;
+    height: 345px;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: ease 0.1s;
+}
+.galeria1:hover {
+    width: 303px;
+    height: 348px;
+}
+.zdjecie1 {
+    width: 100%;
+    border-radius: 15px;
+}
+.galeria2 {
+    background-color: #1E1E1E;
+    text-align: center;
+    width: 200px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 610px;
+    transition: ease 0.1s;
+}
+.galeria2:hover {
+    width: 203px;
+    height: 233px;
+}
+.zdjecie2 {
+    width: 100%;
+    border-radius: 15px;
+}
+.galeria3 {
+    background-color: #1E1E1E;
+    text-align: center;
+    width: 200px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 270px;
+    margin-right: 610px;
+    transition: ease 0.1s;
+}
+.galeria3:hover {
+    width: 203px;
+    height: 233px;
+}
+.zdjecie3 {
+    width: 100%;
+    border-radius: 15px;
+}
+nav {
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 72px;
+    background: #1E1E1E;
+    border-radius: 100px;
+    margin-top: 15px;
+    position: fixed;
+    margin-left: 5%;
+    z-index: 5;
+    animation-name: test;
+    animation-duration: 3s;
+}
+img.logo {
+    width: 70px;
+    height: 70px;
+    margin-left: -97%;
+    margin-top: 2px;
+    position: absolute;
+}
+img.tlo {
+    width: 106%;
+    height: 106%;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+nav li a {
+    display: block;
+    color: #e550ff;
+    font-family: 'Czcionka';
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8px;
+    transition: ease 0.1s;
+}
+nav li a:hover {
+    color: #7f248f;
+}
+a.nav1 {
+    margin-left: -665px;
+}
+a.nav2 {
+    margin-left: -445px;
+}
+a.nav3 {
+    margin-left: -320px;
+}
+a.nav4 {
+    margin-left: -150px;
+}
